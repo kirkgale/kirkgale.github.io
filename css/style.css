@@ -1,16 +1,47 @@
+/*@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);*/
+
 body {
-	font-family: Helvetica, sans-serif;
 	height: 100%;
+
+}
+
+.prof {
+  float: right;
+  max-width: 20%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  margin-top: 15px;
+}
+
+.social {
+  font-size: 200%;
 }
 
 .container {
-	max-width: 600px;
+  max-width: 980px;
 }
 
-.header {
-	background-color: #eee;
+.approach {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.media-object {
-	width: 80px;
+@media screen and (max-width: 767px) {
+  .container {
+  margin: 5px 5px;
+  }
+}
+
+
+@media screen and (max-width: 560px) {
+  .prof {
+    display: none;
+  }
+  .jumbotron {
+    text-align: center;
+  }
 }
